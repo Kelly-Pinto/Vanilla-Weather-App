@@ -10,6 +10,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Weather App</title>
   </head>
@@ -26,7 +27,7 @@
                 alt="clear"
                 class="current-condition-image"
               />
-              <strong id="current-temp">12</strong>
+              <strong id="current-temp"></strong>
 
               <span id="units">
                 °C | <a href="#" id="fahrenheit-unit"> °F</a></span
@@ -34,9 +35,9 @@
             </div>
             <div class="col-6">
               <ul id="conditions">
-                <li>Clear</li>
-                <li>Humidity: 73%</li>
-                <li>Wind: 2mph</li>
+                <li id="description"></li>
+                <li>Humidity: <span id="humidity"></span>%</li>
+                <li>Wind: <span id="wind"></span>kph</li>
               </ul>
             </div>
           </div>
