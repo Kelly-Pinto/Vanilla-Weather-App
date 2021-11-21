@@ -39,3 +39,8 @@ ul {
   position: relative;
   top: -30px;
 }
+
+#units .active {
+  color: #7e7c7e;
+  cursor: default;
+}
