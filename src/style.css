@@ -22,6 +22,25 @@ ul {
   position: relative;
   top: -20px;
 }
+
+.forecast-day {
+  padding-top: 15px;
+  color: black;
+  text-align: center;
+  opacity: 0.9;
+  font-size: 16px;
+}
+
+.weather-forecast-temperatures {
+  font-size: 14px;
+}
+.forecast-temp-max {
+  opacity: 0.9;
+}
+.forecast-temp-min {
+  opacity: 0.6;
+}
+
 #conditions {
   list-style: none;
   line-height: 1;
