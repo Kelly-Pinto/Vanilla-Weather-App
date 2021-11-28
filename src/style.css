@@ -8,7 +8,7 @@ ul {
   padding-top: 18px;
 }
 .weather-app-wrapper {
-  max-width: 600px;
+  max-width: 700px;
   margin-top: 20px;
   padding: 20px;
   border: 1px solid #d6d2d7;
@@ -31,8 +31,13 @@ ul {
   font-size: 16px;
 }
 
+.weather-forecast {
+  padding-bottom: 15px;
+}
+
 .weather-forecast-temperatures {
   font-size: 14px;
+  text-align: center;
 }
 .forecast-temp-max {
   opacity: 0.9;
